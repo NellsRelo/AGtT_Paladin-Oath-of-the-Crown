@@ -1,7 +1,7 @@
 /*
   Champion Challenge
 
-  Bonus Action_DivineIntervention_Weapon
+  Bonus Action
   Issue a challenge that compels other creatures to do battle with you.
 
   Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw.

@@ -1,0 +1,19 @@
+/*
+  In Defense of the Realm
+
+  Starting at level 7, as long as you are conscious, you bolster the defences of all nearby
+  friendly characters (or kinsmen?). The aura extends 3m from you in every direction.
+  Non-enemy characters within the aura may add half your Charisma modifier to their AC.
+
+  Enemies within the aura have their movement slowed by half your Charisma modifier.
+
+  TODO: See if we can make it so that it only affects characters with the same homeland tag
+  (I.E. Baldurian). Would be nice flavor that way.
+*/
+
+new entry "AGtT_Aura_Decree"
+type "PassiveData"
+data "DisplayName" "h7c89a2c1g5073g4fc7g8088gbc8d7a005e70;1"
+data "Description" "he3e36619g5be9g4d67g92d0g8c755a6557fe;1"
+data "ExtraDescription" "h940e8febg43bbg4b07gb389g08f42fff80bc;2"
+data "Properties" "Highlighted"
