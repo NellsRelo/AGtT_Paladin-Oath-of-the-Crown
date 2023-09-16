@@ -12,5 +12,4 @@
 
   The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch
   of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
-
 */
