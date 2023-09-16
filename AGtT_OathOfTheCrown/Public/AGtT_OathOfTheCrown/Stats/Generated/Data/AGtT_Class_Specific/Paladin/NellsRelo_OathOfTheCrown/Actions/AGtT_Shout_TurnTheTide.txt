@@ -1,10 +1,57 @@
 /*
   Turn the Tide
 
-  While concentrating, you can bolster injured creatures within your Channel Aura.
-  Each creature of your choice that can hear you within 30 feet of you regains hit
-  points equal to your Charisma modifier (minimum of 1) each turn if it has no more
-  than half of its hit points.
+  Old:
+  While concentrating, you can bolster injured creatures within your Channel Divinity.
+  Each creature can hear you within 30 feet of you regains hit points equal to your
+  Charisma modifier (minimum of 1) each turn if it has no more than half of its hit points.
+
+  New:
+  You can use your Channel Oath to bolster those you've sworn to protect. As an action, you
+  can heal each kinsmen or ally within 9m of you for an amount equal to your Charisma
+  Modifier, until they've regained 50% of their health. Your presence will also improve their
+  AC by 1.
 */
 
+new entry "AGtT_Shout_TurnTheTide"
+type "SpellData"
+data "SpellType" "Shout"
+data "Icon" "Skill_Fighter_Rally"
+data "DisplayName" "hd85e2bfcg7602g4c7dg9e70g3b235be998f1;1"
+data "Description" "hfec7642eg21a1g4f45gb1e6g8b720e81243c;3"
+data "DescriptionParams" "Distance(9);RegainHitPoints(Cause.CharismaModifier);AC(1)"
+data "TooltipStatusApply" "ApplyStatus(AGtT_STATUS_TIDETURNED,100,-1)"
+data "AreaRadius" "9"
+data "TargetConditions" "Character() and not Dead() and not Enemy() and CL_IsKin() or Ally()"
+data "SpellProperties" "IF(not HasStatus('AGtT_STATUS_TIDETURNED')): ApplyStatus(AGtT_STATUS_TIDETURNED, 100, -1)"
+data "TooltipAttackSave" "Wisdom"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;ChannelOath:1"
+data "CastSound" "Action_Cast_Paladin_HealingRadiance"
+data "TargetSound" "Action_Impact_Paladin_HealingRadiance"
+data "SpellAnimation" "83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;eb4f3d5f-6815-4ad5-a5af-870942af0863,,;ba5068a2-ed31-4b9a-87cc-be28edb9ad25,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,,"
+data "VerbalIntent" "Healing"
+data "SpellStyleGroup" "Class"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareEffect" "f719faf1-83e7-4407-a2f2-0880e26f9ca5"
+data "CastEffect" "a851aded-d542-482c-81ea-aa807d8b630f"
+data "TargetEffect" "1dcca477-79be-4e15-bb70-8680a6dc49e5"
 
+new entry "AGtT_STATUS_TIDETURNED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Skill_Fighter_Rally"
+data "DisplayName" "h32f822f1g557fg4f77g9e90gbe3d36acc9eb;1"
+data "Description" "h058b7513g6ddcg4f92gafc7gd608373e8c13;1"
+data "DescriptionParams" "RegainHitPoints(Cause.CharismaModifier)"
+data "SoundLoop" "Misc_Status_Rally_MO"
+data "SoundStop" "Misc_Status_Rally_MO_Stop"
+data "TickType" "StartTurn"
+data "StackId" "AGtT_STATUS_TIDETURNED"
+data "RemoveConditions" "not HasHPPercentageLessThan(50)"
+data "RemoveEvents" "OnTurn"
+data "TickFunctors" "RegainHitPoints(Cause.CharismaModifier)"
+data "ManagedStatusEffectType" "Positive"
+data "ManagedStatusEffectGroup" "6435c10a-c67d-4f79-8813-b84b0762f92b"
+data "Boosts" "AC(1)"
