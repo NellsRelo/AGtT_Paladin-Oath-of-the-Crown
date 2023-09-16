@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="8" build="606" />
+  <region id="Tags">
+    <node id="Tags">
+      <attribute id="UUID" type="guid" value="64a16f86-787e-4fde-ae96-c66c675e8408" />
+      <attribute id="Name" type="FixedString" value="PALADIN_CROWN" />
+      <attribute id="DisplayName" type="TranslatedString" handle="ha6656f5bg2442g4b02g96e0g650352b38d7f" version="1" />
+      <attribute id="DisplayDescription" type="TranslatedString" handle="h66810eb1g38f3g40f4g8aedgecb83ad4cf7e" version="1" />
+      <attribute id="Icon" type="FixedString" value="" />
+      <attribute id="Description" type="LSString" value="Paladin Subclass" />
+      <children>
+        <node id="Categories">
+          <children>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="Code" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="Dialog" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="Story" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="Class" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="CharacterSheet" />
+            </node>
+          </children>
+        </node>
+        <node id="Properties" />
+      </children>
+    </node>
+  </region>
+</save>

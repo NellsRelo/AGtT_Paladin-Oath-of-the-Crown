@@ -1,0 +1,11 @@
+/*
+  Champion Challenge
+
+  Bonus Action_DivineIntervention_Weapon
+  Issue a challenge that compels other creatures to do battle with you.
+
+  Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw.
+  On a failed save, a creature can't willingly move more than 30 feet away from you. The effect ends
+  on the creature if you are incapacitated or die, or if the creature is moved more than 30 feet away
+  from you.
+*/

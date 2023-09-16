@@ -1,0 +1,16 @@
+/*
+  Detect Trap
+  2nd-level Mysticism (Ritual)
+
+  Casting Time: 1 action
+  Range: Self
+  Components: Somatic
+  Duration: Concentration, up to 10 minutes.
+
+  For the duration, you know if there is a non-magical trap within 30 feet of you,
+  as well as where it is located.
+
+  The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch
+  of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
+
+*/

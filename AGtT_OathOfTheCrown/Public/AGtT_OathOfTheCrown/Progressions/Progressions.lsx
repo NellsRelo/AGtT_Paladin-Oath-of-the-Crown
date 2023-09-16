@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330" />
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1" />
+          <attribute id="Name" type="LSString" value="OathOfTheCrown" />
+          <attribute id="ProgressionType" type="uint8" value="1" />
+          <attribute id="Selectors" type="LSString" value="AddSpells(7873dbcb-3625-46e4-8395-fc67b947d3b9,OathSpells,,,AlwaysPrepared)" />
+          <attribute id="PassivesAdded" type="LSString" value="AGtT_Crown_Tenents" />
+          <attribute id="TableUUID" type="guid" value="126dfb2b-0c44-482d-b638-787fe9f7d763" />
+          <attribute id="UUID" type="guid" value="d31bed56-059b-4f1b-bbed-be216c95c45a" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3" />
+          <attribute id="Name" type="LSString" value="OathOfTheCrown" />
+          <attribute id="ProgressionType" type="uint8" value="1" />
+          <attribute id="Selectors" type="LSString" value="AddSpells(98c02267-68c9-43c9-9e9f-f0c98001f9a0,OathSpells,,,AlwaysPrepared);AddSpells(fb9309b9-9737-495f-8a0e-c45209c8294b,,,,AlwaysPrepared)" />
+          <attribute id="TableUUID" type="guid" value="126dfb2b-0c44-482d-b638-787fe9f7d763" />
+          <attribute id="UUID" type="guid" value="0d5e6f73-3cd0-4cd1-a296-a1bc3b359412" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5" />
+          <attribute id="Name" type="LSString" value="OathOfTheCrown" />
+          <attribute id="ProgressionType" type="uint8" value="1" />
+          <attribute id="Selectors" type="LSString" value="AddSpells(26009b75-6927-44e3-8bc2-7c9337512b02,OathSpells,,,AlwaysPrepared)" />
+          <attribute id="TableUUID" type="guid" value="126dfb2b-0c44-482d-b638-787fe9f7d763" />
+          <attribute id="UUID" type="guid" value="aa928440-0c81-42be-b768-0168f55f982b" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7" />
+          <attribute id="Name" type="LSString" value="OathOfTheCrown" />
+          <attribute id="ProgressionType" type="uint8" value="1" />
+          <attribute id="Selectors" type="LSString" value="AddSpells(26009b75-6927-44e3-8bc2-7c9337512b02,OathSpells,,,AlwaysPrepared)" />
+          <attribute id="PassivesAdded" type="LSString" value="AGtT_Aura_Decree" />
+          <attribute id="TableUUID" type="guid" value="126dfb2b-0c44-482d-b638-787fe9f7d763" />
+          <attribute id="UUID" type="guid" value="aa928440-0c81-42be-b768-0168f55f982b" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9" />
+          <attribute id="Name" type="LSString" value="OathOfTheCrown" />
+          <attribute id="ProgressionType" type="uint8" value="1" />
+          <attribute id="Selectors" type="LSString" value="AddSpells(f2c3895b-8b65-4d9c-9210-5ffa21ff8679,OathSpells,,,AlwaysPrepared)" />
+          <attribute id="PassivesAdded" type="LSString" value="AGtT_Aura_Decree" />
+          <attribute id="TableUUID" type="guid" value="126dfb2b-0c44-482d-b638-787fe9f7d763" />
+          <attribute id="UUID" type="guid" value="aa928440-0c81-42be-b768-0168f55f982b" />
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

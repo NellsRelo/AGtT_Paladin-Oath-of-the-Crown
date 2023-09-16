@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="5" build="610" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <atribute id="Comment" type="LSString" value="1st-level Paladin Features" />
+          <attribute id="Spells" type="LSString" value="AGtT_Shout_TurnTheTide;AGtT_Zone_ChampionChallenge" />
+          <attribute id="UUID" type="guid" value="7873dbcb-3625-46e4-8395-fc67b947d3b9" />
+        </node>
+        <node id="SpellList">
+          <atribute id="Comment" type="LSString" value="3rd-level Spells" />
+          <attribute id="Spells" type="LSString" value="AGtT_Target_Alarm;Target_Command_Container" />
+          <attribute id="UUID" type="guid" value="98c02267-68c9-43c9-9e9f-f0c98001f9a0" />
+        </node>
+        <node id="SpellList">
+          <atribute id="Comment" type="LSString" value="3rd-level Paladin Features" />
+          <attribute id="Spells" type="LSString" value="AGtT_Shout_TurnTheTide_2" />
+          <attribute id="UUID" type="guid" value="fb9309b9-9737-495f-8a0e-c45209c8294b" />
+        </node>
+        <node id="SpellList">
+          <atribute id="Comment" type="LSString" value="5th-level Spells" />
+          <attribute id="Spells" type="LSString" value="AGtT_Target_HeroicTouch;AGtT_Zone_ZoneOfTruth" />
+          <attribute id="UUID" type="guid" value="26009b75-6927-44e3-8bc2-7c9337512b02" />
+        </node>
+        <node id="SpellList">
+          <atribute id="Comment" type="LSString" value="9th-level Spells" />
+          <attribute id="Spells" type="LSString" value="AGtT_Shout_DetectTrap;Projectile_LightningArrow" />
+          <attribute id="UUID" type="guid" value="f2c3895b-8b65-4d9c-9210-5ffa21ff8679" />
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

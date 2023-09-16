@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="314" />
+  <region id="ClassDescriptions">
+    <node id="root">
+      <children>
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Devotion" />
+          <attribute id="Description" type="TranslatedString" handle="h66810eb1g38f3g40f4g8aedgecb83ad4cf7e" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="ha6656f5bg2442g4b02g96e0g650352b38d7f" version="1" />
+          <attribute id="LearningStrategy" type="uint8" value="1" />
+          <attribute id="MustPrepareSpells" type="bool" value="true" />
+          <attribute id="Name" type="FixedString" value="OathOfTheCrown" />
+          <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
+          <attribute id="PrimaryAbility" type="uint8" value="1" />
+          <attribute id="ProgressionTableUUID" type="guid" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+          <attribute id="SoundClassType" type="FixedString" value="Paladin" />
+          <attribute id="SpellCastingAbility" type="uint8" value="6" />
+          <attribute id="SpellList" type="guid" value="6e7cf070-d8fb-4c5c-a1bf-819bfd18ac72" />
+          <attribute id="UUID" type="guid" value="02dff6ea-ea40-4ab6-9f23-e5b919ddde4a" />
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="a1aa47b2-4d0a-4c97-931b-2c53353d5b23" />
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

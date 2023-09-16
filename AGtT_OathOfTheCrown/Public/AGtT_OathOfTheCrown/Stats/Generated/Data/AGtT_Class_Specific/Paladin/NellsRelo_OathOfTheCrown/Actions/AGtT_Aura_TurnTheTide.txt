@@ -1,0 +1,11 @@
+/*
+  Turn the Tide
+
+  While concentrating, you can bolster injured creatures within your Channel Aura.
+  Each creature of your choice that can hear you within 30 feet of you regains hit
+  points equal to your Charisma modifier (minimum of 1) each turn if it has no more
+  than half of its hit points.
+
+*/
+
+
