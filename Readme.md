@@ -1,5 +1,5 @@
 # Adventurer's Guide to Tamriel: Oath of the Crown
-[![GitHub release](https://img.shields.io/github/v/tag/NellsRelo/AGtT_Paladin-Oath-of-the-Crown?label=Latest%20Version)](https://GitHub.com/NellsRelo/AGtT_Paladin-Oath-of-the-Crown/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/NellsRelo/AGtT_Paladin-Oath-of-the-Crown/1.0.0.0/main)](https://GitHub.com/NellsRelo/AGtT_Paladin-Oath-of-the-Crown/commit/)
+[![GitHub release](https://img.shields.io/github/v/tag/NellsRelo/AGtT_Paladin-Oath-of-the-Crown?label=Latest%20Version)](https://GitHub.com/NellsRelo/AGtT_Paladin-Oath-of-the-Crown/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/NellsRelo/AGtT_Paladin-Oath-of-the-Crown/1.0.0/main)](https://GitHub.com/NellsRelo/AGtT_Paladin-Oath-of-the-Crown/commit/)
 
 This mod adds the Oath of the Crown Paladin subclass, as defined in Adventurer's Guide to Tamriel.
 
